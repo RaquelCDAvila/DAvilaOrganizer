@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* Contatos==================*/
+hgroup{
+    padding: 0px 100px 20px 100px; /*top lef bottom right*/
+    text-align: center;
+    border-top: 1pt solid #696969;
+    margin-top: 5rem
+}
+hgroup#contato ul li{
+    list-style:none;
+    font-size: 12pt;
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+}
+#contato img{
+    width: 4rem;
+}
+.classWhatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+#formContato{
+    font-family: 'Arial';
+    font-size: 12pt;
+}
+#formContato input, textarea{
+    margin-top: 0.5rem;
+}
+fieldset{
+    border: 1pt solid #696969;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+hgroup#local{
+    padding-top: 2rem;
+}

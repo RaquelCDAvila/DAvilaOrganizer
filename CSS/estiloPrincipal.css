@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* Global==================*/
+:root {
+    --orange:#e45532;
+    --gray:#696969;
+    --white:#ffffff;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-size: 93.75%; /* 15px*/
+}
+/* Body=================*/
+body{
+    font-family: 'Arial';
+    font-size: 12pt;
+    color: var(--gray);
+    background-color:#fff8dc;
+}
+/* Header==================*/
+header {
+    background: var(--orange);
+    padding: 1rem 2rem 2rem;
+    text-align: center;
+    color: var(--white)
+}
+/* Menu Principal==================*/
+nav#menuPrincipal ul {
+    list-style:none;
+    font-family: 'Arial';
+    font-size: 16pt;
+    text-align: center;
+    background-color: #e0deda;
+}
+nav#menuPrincipal ul li{
+    display: inline;
+}
+nav#menuPrincipal ul li a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: var(--orange);
+    transition: background .3s;
+}
+nav#menuPrincipal ul li a:hover{
+    color: var(--gray);
+    background-color: var(--orange);
+}
+/* Migalha de pão==================*/
+nav#menuPrincipal p a{
+    font-size: 10pt;
+    color: var(--orange);
+    text-decoration: none;
+}
+nav#menuPrincipal p a:hover{
+    color: var(--gray);
+    text-decoration: underline;
+}
+/* Footer==================*/
+footer{
+    background: var(--orange);
+    text-align: center;
+    padding: 2rem 0 2rem;
+    color: var(--white);
+}
+footer p{
+    text-align: center;
+    font-size: 10pt;
+    text-indent: 0px;
+}

@@ -1,0 +1,14 @@
+==Cores==
+
+CMYK (Ciano Magenta Yellon Black) - usado para impressão
+
+RGB (Red Green Blue) 0 - 255
+HEXADECIMAL #RRGGBB - 0 até 9 + A até F
+NOME 
+
+
+==Cores do site==
+
+#e45532 - organe
+#696969 - gray
+#ffffff - white
