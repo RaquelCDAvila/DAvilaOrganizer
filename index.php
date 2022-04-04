@@ -12,18 +12,18 @@
             <img id="logo" src="Imagens/logo_davila_transparente_menor.png" alt="Logo DAvilaOrganizer"> 
         </header>
             <nav id="menuPrincipal">
-                <ul >
+                <ul >   
                     <li>
-                        <a href="index.html" target="_self"> Home</a>
+                        <a href="index.php" target="_self"> Home</a>
                     </li>
                     <li>
-                        <a href="blog.html" target="_self"> Blog</a>
+                        <a href="blog.php" target="_self"> Blog</a>
                     </li>
                     <li>
-                        <a href="sobre_mim.html" target="_self"> Sobre mim</a>
+                        <a href="sobre_mim.php" target="_self"> Sobre mim</a>
                     </li>
                     <li>
-                        <a href="contato.html" target="_self"> Contato</a>
+                        <a href="contato.php" target="_self"> Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -33,28 +33,24 @@
                     <h2>Repostado de Andréia Baldan - OZ&#33 Organize</h2>
                     <p>A <b>Personal Organizer</b> é uma profissional especializada em trazer mais praticidade para o dia a dia de pessoas e empresas ao organizar ambientes, espaços e rotinas, deixando-os mais funcionais de acordo com as necessidades de cada cliente...</p>
                     <h3><a href="https://www.organizesuavida.com.br/voce-sabe-o-que-faz-um-personal-organizer/" target="_blank"> Fonte: https://www.organizesuavida.com.br/voce-sabe-o-que-faz-um-personal-organizer/</a></h2>
-                    <h3><a href="blog.html#post01"> Ler mais...</a></h3>
+                    <h3><a href="blog.php#post01"> Ler mais...</a></h3>
                 </article>
                 <article id="post02">
                     <h1>Sem ferro de passar roupa!</h1>
                     <h2>07/09/2020 Por Raquel Custódio D’Avila</h2>
                     <p>Fazer a mala da viagem não é tarefa fácil, certo?! Saber o que levar, quantidade, peças coringas, acessórios, sapatos, tudo...</p>
-                    <h3><a href="blog.html#post02"> Ler mais...</a></h3>
+                    <h3><a href="blog.php#post02"> Ler mais...</a></h3>
                 </article>   
                 <article id="post03"> 
                     <h1>Aquela eterna dúvida...</h1>
                     <h2>16/02/2021 Por Raquel Custódio D’Avila</h2>
                     <p>No inverno, na região sul do país, sempre surge aquela dúvida... e agora tá úmida ou só gelada?
                     Confesso que sempre tenho essa dificuldade em saber... e acredito ser a dúvida de muita gente!</p>
-                    <h3><a href="blog.html#post03"> Ler mais...</a></h3>
+                    <h3><a href="blog.php#post03"> Ler mais...</a></h3>
                 </article>
             </div>
-        <footer> 
-            <a href="https://www.facebook.com/davilaorganizer" target="_blank">
-                <img src="Imagens/logo_face.png" alt="Rede Social do Facebook"></a>
-            <a href="https://www.instagram.com/davilaorganizer/" target="_blank">
-                <img src="Imagens/logo_insta.png" alt="Rede Social do Instagram"></a>
-            <p>Copyright &copy 2021 by Raquel Custódio D'Avila</p>
-        </footer>
+        <?php
+            include_once "c:/xampp/htdocs/site_DavilaOrganizer/Includes/footer.html";
+        ?>
     </body>
 </html>

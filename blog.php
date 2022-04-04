@@ -14,20 +14,20 @@
         <nav id="menuPrincipal">
             <ul >
                 <li>
-                    <a href="index.html" target="_self"> Home</a>
+                    <a href="index.php" target="_self"> Home</a>
                 </li>
                 <li>
-                    <a href="blog.html" target="_self"> Blog</a>
+                    <a href="blog.php" target="_self"> Blog</a>
                 </li>
                 <li>
-                    <a href="sobre_mim.html" target="_self"> Sobre mim</a>
+                    <a href="sobre_mim.php" target="_self"> Sobre mim</a>
                 </li>
                 <li>
-                    <a href="contato.html" target="_self"> Contato</a>
+                    <a href="contato.php" target="_self"> Contato</a>
                 </li>
             </ul>
             <!--Migalha de pão-->
-            <p><a href="index.html">Home</a></a> | <a href="blog.html">Blog</a></a></p>
+            <p><a href="index.php">Home</a></a> | <a href="blog.php">Blog</a></a></p>
         </nav>
         <div id="conteudoBlog">    
             <section id="post01">
@@ -83,13 +83,9 @@
                 <img class="tamanho" src="Imagens/post03.png" title="Aquela eterna dúvida">
             </section>
         </div>
-        <footer>
-            <a href="https://www.facebook.com/davilaorganizer" target="_blank">
-                <img src="Imagens/logo_face.png" alt="Rede Social do Facebook"></a>
-            <a href="https://www.instagram.com/davilaorganizer/" target="_blank">
-                <img src="Imagens/logo_insta.png" alt="Rede Social do Instagram"></a>
-            <p>Copyright &copy 2021 by Raquel Custódio D'Avila</p>
-        </footer>
+        <?php
+        include_once "c:/xampp/htdocs/site_DavilaOrganizer/Includes/footer.html";
+        ?>
     </body>
 </html>
 
