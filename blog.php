@@ -31,7 +31,7 @@
         </nav>
         <div id="conteudoBlog">    
             <section id="post01">
-                <h1><a name="post01">Você sabe o que faz um Personal Organizer?</a></h1>
+                <h1><a name="post01">Você sabe o que faz um Personal Organizer??</a></h1>
                 <h2>Repostado de Andréia Baldan - OZ&#33 Organize</a></h2>
                 <p>A <b>Personal Organizer</b> é uma profissional especializada em trazer mais praticidade para o dia a dia de pessoas e empresas ao organizar ambientes, espaços e rotinas, deixando-os mais funcionais de acordo com as necessidades de cada cliente.<br>
                 Onde há necessidade de organização, ela pode atuar!<br>
